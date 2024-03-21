@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+body{
+    background-color: rgb(250, 228, 206);
+}
+
+.container{
+    background: white;
+    width: 20vw;
+    padding: 29px;
+    margin: 17px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 22px;
+    height: 45vh;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.amount input{
+    height: 25px;
+    border: 0.5px solid #a9a2a2;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+}
+form{
+    margin-top: 25px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px;
+}
+.select-container{
+    display: flex;
+    padding: 3px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+}
+.select-container img{
+  height: 25px;
+}
+.select-container select{
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+.rate{
+    padding: 5px 0px;
+    margin: 25px 0px;
+}
+.exchange{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(158, 65, 158);
+    color: white;
+    font-weight:500;
+    border: none;
+    border-radius: 10px;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
